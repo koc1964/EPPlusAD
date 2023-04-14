@@ -1,3 +1,6 @@
+This repository EPPlusAD is originated from original EPPlus containing some minor fixes
+**
+
 # EPPlus
 **This repository has moved to https://github.com/EPPlusSoftware/EPPlus.** 
 
