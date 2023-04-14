@@ -546,6 +546,9 @@ namespace OfficeOpenXml.VBA
                     case 0x28:
                         currentModule.Private = true;
                         break;
+                    case 0x4A: // Excel >= 2019 adds this
+                        var r3 = br.ReadUInt32();
+                        break;
                     default:
                         break;
                 }
