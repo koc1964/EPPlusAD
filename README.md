@@ -1,4 +1,7 @@
 This repository EPPlusAD is originated from original EPPlus containing some minor fixes
+
+v4.6.0.1 as new forked version
+
 **
 
 # EPPlus

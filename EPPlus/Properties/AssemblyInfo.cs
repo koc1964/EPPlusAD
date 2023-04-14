@@ -51,18 +51,18 @@ using System.Security;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-#if (!Core)
-    //[assembly: AssemblyTitle("EPPlus")]
-    //[assembly: AssemblyDescription("Allows Excel files(xlsx;xlsm) to be created on the server. See epplus.codeplex.com")]
-    //[assembly: AssemblyConfiguration("")]
-    //[assembly: AssemblyCompany("EPPlus")]
-    //[assembly: AssemblyProduct("EPPlus")]
-    //[assembly: AssemblyCopyright("Copyright 2009- ©Jan Källman. Parts of the Interface comes from the ExcelPackage-project")]
-    //[assembly: AssemblyTrademark("The GNU Lesser General Public License (LGPL)")]
-    //[assembly: AssemblyCulture("")]
-    //[assembly: ComVisible(false)]
+#if(!Core)
+[assembly: AssemblyTitle("EPPlusAD")]
+//[assembly: AssemblyDescription("Allows Excel files(xlsx;xlsm) to be created on the server. See epplus.codeplex.com")]
+//[assembly: AssemblyConfiguration("")]
+//[assembly: AssemblyCompany("EPPlus")]
+//[assembly: AssemblyProduct("EPPlus")]
+//[assembly: AssemblyCopyright("Copyright 2009- ©Jan Källman. Parts of the Interface comes from the ExcelPackage-project")]
+//[assembly: AssemblyTrademark("The GNU Lesser General Public License (LGPL)")]
+//[assembly: AssemblyCulture("")]
+//[assembly: ComVisible(false)]
 
-    //[assembly: AssemblyVersion("4.5.0.0")]
-    //[assembly: AssemblyFileVersion("4.5.0.0")]
+[assembly: AssemblyVersion("4.6.0.1")]
+[assembly: AssemblyFileVersion("4.6.0.1")]
 #endif
 [assembly: AllowPartiallyTrustedCallers]
