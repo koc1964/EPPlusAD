@@ -53,12 +53,12 @@ using System.Security;
 // by using the '*' as shown below:
 #if(!Core)
 [assembly: AssemblyTitle("EPPlusAD")]
-//[assembly: AssemblyDescription("Allows Excel files(xlsx;xlsm) to be created on the server. See epplus.codeplex.com")]
+[assembly: AssemblyDescription("Allows Excel files(xlsx;xlsm) to be created on the server. See fork https://github.com/koc1964/EPPlusAD")]
 //[assembly: AssemblyConfiguration("")]
 //[assembly: AssemblyCompany("EPPlus")]
 //[assembly: AssemblyProduct("EPPlus")]
-//[assembly: AssemblyCopyright("Copyright 2009- ©Jan Källman. Parts of the Interface comes from the ExcelPackage-project")]
-//[assembly: AssemblyTrademark("The GNU Lesser General Public License (LGPL)")]
+[assembly: AssemblyCopyright("Copyright 2023 koc1964, Jan Källman")]
+[assembly: AssemblyTrademark("The GNU Lesser General Public License (LGPL)")]
 //[assembly: AssemblyCulture("")]
 //[assembly: ComVisible(false)]
 
